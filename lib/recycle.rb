@@ -5,7 +5,7 @@
 # We haven't hard coded the hashes in the tests, 
 #they're dynamically brought in from the NYC Open Data API
 
-first_recycle_bin =  {
+first_recycle_bin = {
   :address =>"E 227 St/Bronx River Pkway",
   :site_type =>"Subproperty",
   :longitude =>"-73.864223918",
@@ -18,7 +18,7 @@ first_recycle_bin =  {
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
 def address 
-  puts "#{first_recycle_bin [:address][0]}"
+  puts "#{first_recycle_bin[:address][0]}"
 end
 address
 
